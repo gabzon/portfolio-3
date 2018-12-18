@@ -29,7 +29,7 @@
         </div>
         <div class="col-12 col-sm-8 col-md-8 col-lg-8">
           <hr class="d-none d-sm-block">
-          <h4>{{ get_the_title() }}</h4>
+          <h4>{!! get_the_title() !!}</h4>
           @php(the_content())
           <br>
           <br>
