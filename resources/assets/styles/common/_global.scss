@@ -1,0 +1,19 @@
+pre {
+  background: #ddd;
+  margin: 0;
+  padding: 0;
+  border-radius: 3px;
+  white-space: pre;
+}
+
+code {
+  margin-top: 5px;
+}
+
+.strikethrough:checked + .task {
+  text-decoration: line-through;
+}
+
+input.form-check-input.strikethrough {
+  margin-left: -43px !important;
+}
