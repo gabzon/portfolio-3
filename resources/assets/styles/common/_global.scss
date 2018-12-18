@@ -17,3 +17,26 @@ code {
 input.form-check-input.strikethrough {
   margin-left: -43px !important;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: baskerville, serif;
+  margin-bottom: 0;
+}
+
+body,
+p {
+  font-family: 'avenir next', avenir, sans-serif;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}

@@ -87,6 +87,72 @@ function pf_register_required_plugins() {
       'required'  => true,
     ),
 
+    array(
+      'name'      => 'Broken Link Checker',
+      'slug'      => 'broken-link-checker',
+      'required'  => true,
+    ),
+
+    array(
+      'name'      => 'WP Super Cache',
+      'slug'      => 'wp-super-cache',
+      'required'  => true,
+    ),
+
+    array(
+      'name'      => 'BBQ (Block Bad Queries)',
+      'slug'      => 'block-bad-queries',
+      'required'  => true,
+    ),
+
+    array(
+      'name'      => 'The SEO Framework',
+      'slug'      => 'autodescription',
+      'required'  => true,
+    ),
+
+    array(
+      'name'      => 'WP Smush it',
+      'slug'      => 'wp-smushit',
+      'required'  => true,
+    ),
+
+    array(
+      'name'      => 'UpdraftPlus',
+      'slug'      => 'updraftplus',
+      'required'  => true,
+    ),
+
+    array(
+      'name'      => 'UpdraftPlus',
+      'slug'      => 'updraftplus',
+      'required'  => true,
+    ),
+
+    array(
+      'name'      => 'JetPack',
+      'slug'      => 'jetpack',
+      'required'  => true,
+    ),
+
+    array(
+      'name'      => 'WP Statistics',
+      'slug'      => 'wp-statistics',
+      'required'  => true,
+    ),
+
+    array(
+      'name'      => 'Auth0',
+      'slug'      => 'auth0',
+      'required'  => true,
+    ),
+
+    array(
+      'name'      => 'WP Optimize',
+      'slug'      => 'wp-optimize',
+      'required'  => true,
+    ),
+
 		// This is an example of the use of 'is_callable' functionality. A user could - for instance -
 		// have WPSEO installed *or* WPSEO Premium. The slug would in that last case be different, i.e.
 		// 'wordpress-seo-premium'.

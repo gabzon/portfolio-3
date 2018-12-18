@@ -67,6 +67,7 @@ array_map(function ($file) use ($sage_error) {
   'settings',
   'inc/class-tgm-plugin-activation',
   'inc/tgm-registered-plugins',
+  'inc/wp-bootstrap-pagination',
   //'inc/kirki-installer',
   //'inc/config',
   //'post-types/award',
