@@ -5,3 +5,4 @@
 * blog page in 2 columns
 * underline in links removed
 * Pagination added
+* Pricing page
