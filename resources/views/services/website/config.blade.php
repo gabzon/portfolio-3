@@ -254,11 +254,53 @@
       <div class="row">
         <div class="col-12 col-sm-10 col-md-11 col-lg-2 b">
           <input class="form-check-input strikethrough" type="checkbox" value="" id="check1">
+          <span class="task">Disable user registration</span>
+        </div>
+        <div class="col-12 col-sm-2 col-md-1 col-lg-1">5m @php($count += 5)</div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-9">
+          To disable this option go to <code>Settings > General > anyone can register</code>
+        </div>
+      </div>
+    </li>
+
+    <li>
+      <hr>
+      <div class="row">
+        <div class="col-12 col-sm-10 col-md-11 col-lg-2 b">
+          <input class="form-check-input strikethrough" type="checkbox" value="" id="check1">
+          <span class="task">Change discussion settings</span>
+        </div>
+        <div class="col-12 col-sm-2 col-md-1 col-lg-1">5m @php($count += 5)</div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-9">
+          Do you want anyone to comment on your posts? Perhaps you only want members to comment? <br>Change settings here <code>Settings > Discussion</code>
+        </div>
+      </div>
+    </li>
+
+    <li>
+      <hr>
+      <div class="row">
+        <div class="col-12 col-sm-10 col-md-11 col-lg-2 b">
+          <input class="form-check-input strikethrough" type="checkbox" value="" id="check1">
           <span class="task">Set friendly permalinks</span>
         </div>
         <div class="col-12 col-sm-2 col-md-1 col-lg-1">5m @php($count += 5)</div>
         <div class="col-12 col-sm-12 col-md-12 col-lg-9">
           Configure friendly permalinks under <code>Settings > Permalinks > Post name</code>
+        </div>
+      </div>
+    </li>
+
+    <li>
+      <hr>
+      <div class="row">
+        <div class="col-12 col-sm-10 col-md-11 col-lg-2 b">
+          <input class="form-check-input strikethrough" type="checkbox" value="" id="check1">
+          <span class="task">Consider adding a privacy policy and term and conditions</span>
+        </div>
+        <div class="col-12 col-sm-2 col-md-1 col-lg-1">5m @php($count += 5)</div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-9">
+          Make sure you have a basic privacy policy page as well as terms and conditions
         </div>
       </div>
     </li>

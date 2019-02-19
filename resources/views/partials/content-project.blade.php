@@ -6,7 +6,7 @@
           <a href="{{ get_permalink() }}" class="black hover-gray link no-underline">{{ get_the_title() }}</a>
         </h1>
         <p class="lh-copy entry-summary avenir">
-          @php echo get_the_excerpt() @endphp
+          <?php get_the_excerpt() ?>
         </p>
         @php $posttags = get_the_tags(); @endphp
         @if ($posttags)
